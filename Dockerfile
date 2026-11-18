@@ -15,8 +15,7 @@ COPY . .
 
 # Step 6: Expose port 5000
 EXPOSE 5000
-
-# Step 7: Start the Python application
+Modification
 CMD ["python", "app.py"]
 
 
